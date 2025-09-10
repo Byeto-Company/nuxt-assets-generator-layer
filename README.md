@@ -1,7 +1,6 @@
 # Nuxt Utilities Layer
 
-This repository is a **Nuxt layer** that provides a collection of utilities, composables, and plugins commonly used across projects.  
-By installing this layer, you can keep your Nuxt apps clean and DRY while reusing shared logic.
+Generate assets path from input folders as constants
 
 ## 📦 Installation
 

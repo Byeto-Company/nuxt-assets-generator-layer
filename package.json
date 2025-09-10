@@ -1,6 +1,6 @@
 {
-    "name": "nuxt-utils-layer",
-    "version": "1.0.2",
+    "name": "nuxt-assets-generator-layer",
+    "version": "1.0.0",
     "main": "./nuxt.config.ts",
     "scripts": {
         "dev": "nuxi dev .playground",
@@ -8,20 +8,13 @@
         "build": "nuxt build .playground",
         "generate": "nuxt generate .playground",
         "preview": "nuxt preview .playground",
-        "lint": "eslint .",
-        "gdoc": "documentation build **/*.ts --parse-extension ts -f html -o docs && bun scripts/replace-documentation-theme/index.ts"
+        "lint": "eslint ."
     },
     "dependencies": {
-        "@internationalized/date": "^3.8.2",
-        "@vueuse/integrations": "^13.7.0",
-        "@vueuse/nuxt": "^13.7.0",
-        "@vueuse/router": "^13.7.0",
-        "date-fns-jalali": "^4.1.0-0",
-        "mitt": "^3.0.1"
+        "chokidar": "^4.0.3"
     },
     "devDependencies": {
         "@nuxt/eslint": "latest",
-        "documentation": "^14.0.3",
         "eslint": "^9.33.0",
         "nuxt": "^4.0.3",
         "typescript": "^5.9.2",
